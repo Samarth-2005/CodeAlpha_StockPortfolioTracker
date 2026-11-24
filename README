@@ -1,0 +1,28 @@
+# CodeAlpha_StockPortfolioTracker
+
+A **Stock Portfolio Tracker** built in Python for the **CodeAlpha Python Programming Internship (Task 2)**.
+
+## Project Overview
+
+This console-based Stock Portfolio Tracker calculates total investment value using a hardcoded dictionary of stock prices (`AAPL`, `TSLA`, `GOOGL`, `MSFT`, `AMZN`, `NVDA`). Users enter stock ticker symbols and share quantities, view a formatted breakdown of their holdings, and can optionally export the summary to a `.txt` or `.csv` file.
+
+## Features
+
+- **Predefined Stock Price Dictionary**: Stores share prices for 6 stocks (`AAPL`, `TSLA`, `GOOGL`, `MSFT`, `AMZN`, `NVDA`).
+- **Input Validation**: Verifies stock symbols and ensures share quantities are positive whole numbers.
+- **Portfolio Breakdown**: Calculates per-stock totals and overall investment value in a clean console table.
+- **File Export (Optional)**: Supports saving the portfolio summary to `portfolio_summary.txt`, `portfolio_summary.csv`, or both.
+
+## Key Concepts Used
+
+- Dictionaries (`.get()`, `.items()`, `.keys()`)
+- `while` loops and `if-elif-else` conditional logic
+- Console input/output and basic arithmetic
+- File handling (`open()`, `csv.writer`)
+
+## How to Run
+
+1. Open Command Prompt or VS Code in the project folder.
+2. Run the script:
+   ```bash
+   python CodeAlpha_StockPortfolioTracker.py
